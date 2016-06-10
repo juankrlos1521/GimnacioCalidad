@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.Test\bin\Debug\Gym.Test.dll" total="8" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-06-08" time="18:57:35">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8689" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="DESKTOP-GI8MRI6" user="Carlos" user-domain="DESKTOP-GI8MRI6" />
+  <culture-info current-culture="es-PE" current-uiculture="es-ES" />
+  <test-suite type="Assembly" name="C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.Test\bin\Debug\Gym.Test.dll" executed="True" result="Success" success="True" time="0.821" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Gym" executed="True" result="Success" success="True" time="0.812" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Test" executed="True" result="Success" success="True" time="0.812" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Controllers" executed="True" result="Success" success="True" time="0.811" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="SeguimientoControllerTest" executed="True" result="Success" success="True" time="0.810" asserts="0">
+                    <results>
+                      <test-case name="Gym.Test.Controllers.SeguimientoControllerTest._01_IndexAccion_retornarIndex" executed="True" result="Success" success="True" time="0.602" asserts="2" />
+                      <test-case name="Gym.Test.Controllers.SeguimientoControllerTest._02_TestSeguimientoCrearRetormarVistaesOk" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                      <test-case name="Gym.Test.Controllers.SeguimientoControllerTest._03_TestSeguimientoGuardadoExitoRedireccionandoIndex" executed="True" result="Success" success="True" time="0.004" asserts="2" />
+                      <test-case name="Gym.Test.Controllers.SeguimientoControllerTest._05_TestSeguimientoDetalleRetornarVistaEsOk" executed="True" result="Success" success="True" time="0.122" asserts="4" />
+                      <test-case name="Gym.Test.Controllers.SeguimientoControllerTest._06_TestSeguimientoGuardadoCorrectamenteRedireccionaraIndex" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                      <test-case name="Gym.Test.Controllers.SeguimientoControllerTest._07_TestSeguimientoEditarRetornarVistaEsOk" executed="True" result="Success" success="True" time="0.030" asserts="3" />
+                      <test-case name="Gym.Test.Controllers.SeguimientoControllerTest._08_TestSeguimientoEditarGuardarExito" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                      <test-case name="Gym.Test.Controllers.SeguimientoControllerTest.TestIndexReturnViewIsOkjjjjjjjjjjjjjjjj" executed="True" result="Success" success="True" time="0.009" asserts="4" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

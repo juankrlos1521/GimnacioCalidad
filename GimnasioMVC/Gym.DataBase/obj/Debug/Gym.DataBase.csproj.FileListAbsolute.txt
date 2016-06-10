@@ -1,0 +1,69 @@
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\Gym.DataBase.dll.config
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\Gym.DataBase.dll
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\Gym.DataBase.pdb
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\EntityFramework.dll
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\Gym.Models.dll
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\Gym.Models.pdb
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\EntityFramework.xml
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\obj\Debug\Gym.DataBase.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\obj\Debug\Gym.DataBase.dll
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\obj\Debug\Gym.DataBase.pdb
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.DataBase\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Gym.DataBase.dll.config
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Gym.DataBase.dll
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Gym.DataBase.pdb
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\EntityFramework.dll
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Gym.Models.dll
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Gym.Models.pdb
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\EntityFramework.xml
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\obj\Debug\Gym.DataBase.csprojResolveAssemblyReference.cache
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\obj\Debug\Gym.DataBase.dll
+C:\Users\Solier\Documents\Visual Studio 2015\Projects\Gimnasio-master\GimnasioMVC\Gym.DataBase\obj\Debug\Gym.DataBase.pdb
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Gym.DataBase.dll.config
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Gym.DataBase.dll
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Gym.DataBase.pdb
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\EntityFramework.dll
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Gym.Models.dll
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Gym.Models.pdb
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\EntityFramework.xml
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\obj\Debug\Gym.DataBase.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\obj\Debug\Gym.DataBase.dll
+C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.DataBase\obj\Debug\Gym.DataBase.pdb

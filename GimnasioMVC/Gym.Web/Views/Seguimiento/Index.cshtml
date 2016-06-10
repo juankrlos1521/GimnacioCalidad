@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Gym.Models.Models.Seguimiento>
+
+@{
+    ViewBag.Title = "Seguimiento";
+}
+
+<h2>Seguimiento</h2>
+
+<p>
+    <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("Create", "Seguimiento")'" aria-label="Left Align">
+        @*<img src="~/Images/Icons/add-client-icon.png" width="25" />&nbsp;&nbsp;*@<strong>Crear Nuevo</strong>
+    </button>
+
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Seguimiento
+
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Cliente)
+            
+        </th>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </th>
+        <th>
+           Acciones
+        </th>
+        <th></th>
+    </tr>
+    
+
+    @{int i = 1; }
+
+@foreach (var item in Model) {
+
+    
+
+    <tr>
+        <td>
+            Seguimiento @i 
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cliente.Nombre)
+            
+        </td>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.Fecha)
+        </td>
+        <td>
+            @Html.ActionLink("Mostrar Rutina", "Index", "Rutina", new { x = item.Id }, null) |
+            @*@Html.ActionLink("Rutina", "Rutina&x=", new { id = item.Id }) |*@
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @*<input type="button" value="Eliminar" title="asd" class="btn btn-danger" onclick="@(Html.Raw(String.Format("return confirm('Usted realmente desea eliminar al cliente: " +
+ " ?')")))" />*@
+            <a href="@Url.Action("Delete", new { Id = item.Id})" onclick="@(Html.Raw(String.Format("return confirm('Usted realmente desea eliminar al Seguimiento')")))">Eliminar</a>
+            @*<input type="submit" value="Eliminar" title="asd" class="btn btn-danger" )))" />*@
+            @*@Html.ActionLink("Delete", "Delete", new { id=item.Id })*@
+        </td>
+    </tr>
+    i = i + 1;
+    }
+
+</table>
