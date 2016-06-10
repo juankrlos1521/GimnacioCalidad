@@ -13,3 +13,8 @@ C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.Models\obj\Debug\Gym.Mod
 C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.dll
 C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.pdb
 C:\Users\Carlos\Documents\GitHub\Gimnasio\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\bin\Debug\Gym.Models.dll
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\bin\Debug\Gym.Models.pdb
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.dll
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.pdb

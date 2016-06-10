@@ -40,3 +40,17 @@ C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.Interfaces\bin\Debug\es\
 C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.Interfaces\obj\Debug\Gym.Interfaces.csprojResolveAssemblyReference.cache
 C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.Interfaces\obj\Debug\Gym.Interfaces.dll
 C:\Users\Carlos\Desktop\Gimnasio-master\GimnasioMVC\Gym.Interfaces\obj\Debug\Gym.Interfaces.pdb
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Interfaces\bin\Debug\Gym.Interfaces.dll.config
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Interfaces\bin\Debug\Gym.Interfaces.dll
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Interfaces\bin\Debug\Gym.Interfaces.pdb
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Interfaces\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Interfaces\bin\Debug\Gym.Models.dll
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Interfaces\bin\Debug\Gym.Models.pdb
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Interfaces\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Interfaces\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Interfaces\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Interfaces\obj\Debug\Gym.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Interfaces\obj\Debug\Gym.Interfaces.dll
+C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Interfaces\obj\Debug\Gym.Interfaces.pdb
