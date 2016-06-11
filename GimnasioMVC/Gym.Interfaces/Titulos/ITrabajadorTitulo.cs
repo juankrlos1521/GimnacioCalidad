@@ -15,6 +15,6 @@ namespace Gym.Interfaces.Titulos
         void BuscarTrabajador(String nombre, String apaterno, String amaterno, String dni);
         void InsertarTrabajador(Trabajador trabajador);
         void ModificarTrabajador(Trabajador trabajador);
-        void InhabilitarTrabajador(int id);
+        void InhabilitarTrabajador(int id, bool? estado);
     }
 }

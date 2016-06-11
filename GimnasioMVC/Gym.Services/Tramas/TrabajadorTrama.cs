@@ -25,14 +25,10 @@ namespace Gym.Services.Tramas
             throw new NotImplementedException();
         }
 
-        public void InhabilitarTrabajador(int id)
-        {
-            throw new NotImplementedException();
-        }
-
         public void InsertarTrabajador(Trabajador trabajador)
         {
-            throw new NotImplementedException();
+            entidadTrabajador.Trabajadores.Add(trabajador);
+            entidadTrabajador.SaveChanges();
         }
 
         public IList<Trabajador> ListarTrabajadores(string paterno)
@@ -42,12 +38,35 @@ namespace Gym.Services.Tramas
 
         public void ModificarTrabajador(Trabajador trabajador)
         {
-            throw new NotImplementedException();
+            Trabajador _trabajador = entidadTrabajador.Trabajadores.Where(x => x.Id == trabajador.Id).SingleOrDefault();
+            if (entidadTrabajador != null)
+            {
+                entidadTrabajador.Entry(entidadTrabajador).CurrentValues.SetValues(trabajador);
+                entidadTrabajador.SaveChanges();
+            }
         }
 
         public Trabajador TraerTrabajadorPorId(int? id)
         {
-            throw new NotImplementedException();
+            return entidadTrabajador.Trabajadores.First(x => x.Id == id);
         }
+
+
+        public void InhabilitarTrabajador(int id, bool? estado)
+        {
+            Trabajador _trabajador = entidadTrabajador.Trabajadores.First(x => x.Id == id);
+            if (_trabajador.Estado == true)
+            {
+                _trabajador.Estado = false;
+            }
+            else
+            {
+                _trabajador.Estado = true;
+            }
+
+            entidadTrabajador.SaveChanges();
+
+        }
+
     }
 }

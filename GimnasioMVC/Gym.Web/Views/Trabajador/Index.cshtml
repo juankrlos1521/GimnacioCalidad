@@ -26,7 +26,7 @@
             @Html.DisplayNameFor(model => model.Dni)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Estado)
+            Inhabilitado
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Especialidad)
@@ -37,32 +37,33 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Nombres)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ApePaterno)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ApeMaterno)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Dni)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Estado)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Especialidad)
-        </td>
-        <td>
-            @Html.ActionLink("Editar", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Detalles", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Baja", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombres)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApePaterno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApeMaterno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dni)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Especialidad)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Detalles", "Details", new { id = item.Id }) |
+                @Html.Raw(@Html.ActionLink("Asignar", "Inhabilitar", new { id = item.Id, asignado = item.Id }).ToHtmlString().Replace("Asignar", "Cambiar Estado"))&nbsp;
+            </td>
+        </tr>
+    }
 
 </table>

@@ -29,6 +29,7 @@ namespace Gym.Test.Controllers
             Assert.AreEqual(expected, result.ViewName);
         }
 
+
         [Test]
         public void TestTrabajador2_AbrirCreateTrabajador_trabajador()
         {
@@ -52,7 +53,7 @@ namespace Gym.Test.Controllers
             Assert.AreEqual("Index", redirect.RouteValues["action"]);
         }
 
-        
+
 
 
 

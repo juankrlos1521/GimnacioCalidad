@@ -18,3 +18,15 @@ C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\bin\Debu
 C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.csprojResolveAssemblyReference.cache
 C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.dll
 C:\Users\Carlos\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.pdb
+C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\bin\Debug\Gym.Models.dll.config
+C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\bin\Debug\Gym.Models.dll
+C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\bin\Debug\Gym.Models.pdb
+C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\bin\Debug\EntityFramework.dll
+C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\bin\Debug\EntityFramework.xml
+C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.csprojResolveAssemblyReference.cache
+C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.dll
+C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.pdb

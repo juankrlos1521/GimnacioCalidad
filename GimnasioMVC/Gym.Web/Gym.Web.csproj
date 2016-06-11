@@ -317,6 +317,8 @@
     <Content Include="Views\Trabajador\Create.cshtml" />
     <Content Include="Views\Rutina\Index.cshtml" />
     <Content Include="Views\Cliente\Index.cshtml" />
+    <Content Include="Views\Trabajador\Details.cshtml" />
+    <Content Include="Views\Trabajador\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
