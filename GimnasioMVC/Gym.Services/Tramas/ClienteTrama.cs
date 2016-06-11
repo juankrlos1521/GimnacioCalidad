@@ -23,12 +23,18 @@ namespace Gym.Services.Tramas
 
         public void Eliminar(int id)
         {
-            throw new NotImplementedException();
+            var _cliente = entidadCliente.Clientes.Find(id);
+            if (_cliente != null)
+            {
+                entidadCliente.Clientes.Remove(_cliente);
+                entidadCliente.SaveChanges();
+            }
         }
 
         public void Insertar(Cliente cliente)
         {
-            throw new NotImplementedException();
+            entidadCliente.Clientes.Add(cliente);
+            entidadCliente.SaveChanges();
         }
 
         public IList<Cliente> ListameTodo(string Nombre)
@@ -38,12 +44,17 @@ namespace Gym.Services.Tramas
 
         public void Modificar(Cliente cliente)
         {
-            throw new NotImplementedException();
+            Cliente _cliente = entidadCliente.Clientes.Where(c => c.Id == cliente.Id).SingleOrDefault();
+            if (_cliente != null)
+            {
+                entidadCliente.Entry(_cliente).CurrentValues.SetValues(cliente);
+                entidadCliente.SaveChanges();
+            }
         }
 
         public Cliente TraerClientePorId(int? id)
         {
-            throw new NotImplementedException();
+            return entidadCliente.Clientes.First(c => c.Id == id);
         }
 
        

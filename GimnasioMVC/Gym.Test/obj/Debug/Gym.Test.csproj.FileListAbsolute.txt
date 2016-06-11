@@ -366,3 +366,6 @@ C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Test\bin\Debug\
 C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Test\obj\Debug\Gym.Test.csprojResolveAssemblyReference.cache
 C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Test\obj\Debug\Gym.Test.dll
 C:\Users\Solier\Documents\GitHub\GimnacioCalidad\GimnasioMVC\Gym.Test\obj\Debug\Gym.Test.pdb
+C:\Users\Freddy\Documents\upn\calidad\GimnacioCalidad\GimnasioMVC\Gym.Test\obj\Debug\Gym.Test.csprojResolveAssemblyReference.cache
+C:\Users\Freddy\Documents\upn\calidad\GimnacioCalidad\GimnasioMVC\Gym.Test\obj\Debug\Gym.Test.dll
+C:\Users\Freddy\Documents\upn\calidad\GimnacioCalidad\GimnasioMVC\Gym.Test\obj\Debug\Gym.Test.pdb

@@ -53,12 +53,6 @@ namespace Gym.Test.Controllers
             Assert.AreEqual("Index", redirect.RouteValues["action"]);
         }
 
-
-
-
-
-
-
         private void AssertViewWithoutModel(ViewResult view, string viewName)
         {
             Assert.IsNotNull(view);
