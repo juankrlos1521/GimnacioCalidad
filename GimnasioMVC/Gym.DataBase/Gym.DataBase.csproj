@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="ActaModels\GymContext.cs" />
     <Compile Include="Mapping\ClienteConfig.cs" />
+    <Compile Include="Mapping\CursoConfig.cs" />
     <Compile Include="Mapping\EjercicioConfig.cs" />
     <Compile Include="Mapping\InscripcionConfig.cs" />
     <Compile Include="Mapping\PagoConfig.cs" />

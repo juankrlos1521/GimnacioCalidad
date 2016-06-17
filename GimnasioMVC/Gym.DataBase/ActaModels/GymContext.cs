@@ -21,6 +21,7 @@ namespace Gym.DataBase.ActaModels
         public virtual IDbSet<Cliente> Clientes { get; set; }
         public virtual IDbSet<Inscripcion> Inscripciones { get; set; }
         public virtual IDbSet<Pago> Pagos { get; set; }
+        public virtual IDbSet<Curso> Cursos { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -34,6 +35,7 @@ namespace Gym.DataBase.ActaModels
             modelBuilder.Configurations.Add<Cliente>(new ClienteConfig());
             modelBuilder.Configurations.Add<Inscripcion>(new InscripcionConfig());
             modelBuilder.Configurations.Add<Pago>(new PagoConfig());
+            modelBuilder.Configurations.Add<Curso>(new CursoConfig());
 
         }
     }
