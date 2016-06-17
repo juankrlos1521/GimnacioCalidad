@@ -19,9 +19,17 @@ namespace Gym.Models.Models
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime FechaRegistro { get; set; }
+        public DateTime FechaInicio { get; set; }
+        public DateTime FechaFin { get; set; }
         public Decimal Total { get; set; }
-        public Boolean Tipo { get; set; }
+        public Boolean Estado { get; set; } 
         public Int32? ClienteId { get; set; }
         public Cliente Cliente { get; set; }
+        public List<Curso> Cursos { get; set; }
+
+        public Inscripcion() 
+        {
+            this.Cursos = new List<Curso>();
+        }
     }
 }

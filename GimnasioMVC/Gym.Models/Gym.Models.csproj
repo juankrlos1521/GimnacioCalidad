@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\Curso.cs" />
     <Compile Include="Models\Ejercicio.cs" />
     <Compile Include="Models\Inscripcion.cs" />
     <Compile Include="Models\Pago.cs" />

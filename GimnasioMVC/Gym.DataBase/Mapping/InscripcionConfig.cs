@@ -19,6 +19,9 @@ namespace Gym.DataBase.Mapping
 
             ToTable("Inscripcion", "dbo");
             HasKey(o => o.Id);
+
+            this.HasMany(i => i.Cursos).WithMany(c => c.Inscripciones).Map(t => t.ToTable("InscripcionCurso").MapLeftKey("InscripcionId").MapRightKey("CursoId"));
+            //this.HasMany(i => i.Paquetes).WithMany(p => p.Inscripciones).Map(t => t.ToTable("InscripcionPaquete").MapLeftKey("InscripcionId").MapRightKey("PaqueteId"));
         }
     }
 }
