@@ -32,11 +32,12 @@ namespace Gym.Web.Controllers
         }
 
         // GET: Seguimiento/Details/5
+        // GET: Seguimiento/Details/5
         public ActionResult Details(int id)
         {
-           
-            var model = servicio.TraerSeguimientoPorId(id);           
-      
+            if (id == 0)
+                return RedirectToAction("Index");
+            var model = servicio.TraerSeguimientoPorId(id);
             return View("Details", model);
         }
 
@@ -56,7 +57,7 @@ namespace Gym.Web.Controllers
                 // TODO: Add insert logic here
                 servicio.Insertar(seguimiento);            
 
-                return RedirectToAction("Index", "Seguimiento");
+                return RedirectToAction("Index", "Cliente");
                 
             }
             catch
@@ -88,7 +89,7 @@ namespace Gym.Web.Controllers
             }
             catch
             {
-                return View(seguimiento);
+                return View("Edit", seguimiento);
             }
         }
 

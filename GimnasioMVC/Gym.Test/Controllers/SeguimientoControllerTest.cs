@@ -18,164 +18,165 @@ namespace Gym.Test.Controllers
     [TestFixture]
     public class SeguimientoControllerTest
     {
-        private Seguimiento SeguimientoCliente { get; set; }
+        DateTime _fechaIni = Convert.ToDateTime("01/01/1990");
 
-        [SetUp]
-        public void InstanciaAntesDeCadaTest()
-        {
-            SeguimientoCliente = new Seguimiento();
-        }
+        //[Test]
+        //public void _01_Vista_Retorna_Index_Ok()
+        //{
+        //    //Preparar  - Arrange
+        //    var mock = new Mock<ISeguimientoTitulo>();
+        //    mock.Setup(o => o.ListameTodo(1)).Returns(new List<Seguimiento>());
+        //    var controller = new SeguimientoController(mock.Object);
+
+        //    //Actuar - Act
+        //    var result = controller.Index(1);
+
+        //    //Afirmar - Assert
+        //    mock.Verify(x => x.ListameTodo(1), Times.Once);
+        //    Assert.IsNotNull(result);
+        //    Assert.AreEqual("Index", result.ViewName);
+        //    Assert.IsInstanceOf(typeof(ViewResult), result);
+        //    Assert.IsInstanceOf(typeof(List<Seguimiento>), result.Model);
+        //}
+
+        //[Test]
+        //public void _02_Index_Llama_Seguimiento()
+        //{
+        //    //Preparar  - Arrange
+        //    var mock = new Mock<ISeguimientoTitulo>();
+        //    mock.Setup(o => o.ListameTodo(1)).Returns(new List<Seguimiento>());
+        //    var controller = new SeguimientoController(mock.Object);
+
+        //    //Actuar - Act
+        //    controller.Index(1);
+
+        //    //Afirmar - Assert
+        //    mock.Verify(o => o.ListameTodo(1), Times.Exactly(1));
+        //}
+
         [Test]
-        public void _01_IndexAccion_retornarIndex()
+        public void _03_Vista_Create_Ok()
         {
-            string expected = "Index";
-            var mock = new Mock<ISeguimientoTitulo>();
-            SeguimientoController controller = new SeguimientoController(mock.Object);
-
-            ViewResult result = controller.Index(2) as ViewResult;
-
-            Assert.IsNotNull(result);
-            Assert.AreEqual(expected, result.ViewName);
-            //DateTime datex = Convert.ToDateTime("01/01/1990");
-            //mock.Setup(x => x.ListameTodo(datex)).Returns(new List<Seguimiento>());
-            //var controller = new SeguimientoController(mock.Object);
-
-            //var viewx = controller.Index();
-
-            //Assert.IsInstanceOf(typeof(ViewResult), viewx);
-            //Assert.AreEqual("Index", viewx);
-            //Assert.IsInstanceOf(typeof(List<Seguimiento>), viewx);            
-
-        }
-
-        [Test]
-        public void _02_TestSeguimientoCrearRetormarVistaesOk()
-        {
+            //Preparar  - Arrange
             var controller = new SeguimientoController(null);
 
+            //Actuar - Act
             var view = controller.Create() as ViewResult;
 
+            //Afirmar - Assert
+            Assert.IsInstanceOf(typeof(ViewResult), view);
             AssertViewWithoutModel(view, "Create");
 
         }
 
         [Test]
-        public void _03_TestSeguimientoGuardadoExitoRedireccionandoIndex()
+        public void _04_Create_Guardado_Exito_Redirect_Index()
         {
+            //Preparar  - Arrange
             var mock = new Mock<ISeguimientoTitulo>();
             var controller = new SeguimientoController(mock.Object);
+            
+            //Actuar - Act
+            var redirect = controller.Create(new Seguimiento { Observaciones = "Sufre del Corazón" }) as RedirectToRouteResult;
 
-            var redirect = controller.Create(new Seguimiento { Observaciones = "Hola" }) as RedirectToRouteResult;
+            //Afirmar - Assert
+            Assert.IsNotNull(redirect);
+            Assert.AreEqual("Index", redirect.RouteValues["action"]);
+            Assert.IsInstanceOf(typeof(RedirectToRouteResult), redirect);
+        }
 
+        [Test]
+        public void _05_Falla_Validacion_Return_Vista_Create()
+        {
+            //Preparar  - Arrange
+            var seguimiento = new Seguimiento { };
+            var mock = new Mock<ISeguimientoTitulo>();
+            mock.Setup(o => o.ListameTodo(1));
+
+            //Actuar - Act
+            var controller = new SeguimientoController(mock.Object);
+
+            //Afirmar - Assert
+            var view = controller.Create(seguimiento);
+            Assert.IsInstanceOf(typeof(RedirectToRouteResult), view);
+        }
+
+        [Test]
+        public void _06_Detalles_Redireccionar_Index_Cuando_Id_Es_Cero()
+        {
+            //Preparar  - Arrange
+            var controller = new SeguimientoController(null);
+
+            //Actuar - Act
+            var redirect = controller.Details(0) as RedirectToRouteResult;
+
+            //Afirmar - Assert
             Assert.IsNotNull(redirect);
             Assert.AreEqual("Index", redirect.RouteValues["action"]);
         }
 
-        //[Test]
-        //public void _04_TestSeguimientoDetailsRedirectToIndexWhenIdIsZero()
-        //{
-        //    // Arrange
-            
-        //    var controller = new SeguimientoController(null);
-
-        //    // Act
-
-        //    var redirect = controller.Details(0) as RedirectToRouteResult;
-
-        //    //Assert
-        //    Assert.IsNotNull(redirect);
-        //    Assert.AreEqual("Index", redirect.RouteValues["action"]);
-        //}
-
         [Test]
-        public void _05_TestSeguimientoDetalleRetornarVistaEsOk()
+        public void _07_Detalles_Seguimiento_Id_Cinco_Vista_Ok()
         {
-            // Arrange
+            var _id = 5;
+            //Preparar  - Arrange
             var mock = new Mock<ISeguimientoTitulo>();
-            mock.Setup(x => x.TraerSeguimientoPorId(1)).Returns(new Seguimiento { });
+            mock.Setup(x => x.TraerSeguimientoPorId(_id)).Returns(new Seguimiento { });
             var controller = new SeguimientoController(mock.Object);
+            
+            //Actuar - Act
+            var view = controller.Details(_id) as ViewResult;
 
-            // Act
-
-            var view = controller.Details(1) as ViewResult;
-
-            //Assert
+            //Afirmar - Assert
             AssertViewsWithModel(view, "Details");
             Assert.IsInstanceOf(typeof(Seguimiento), view.Model);
         }
 
         [Test]
-        public void _06_TestSeguimientoGuardadoCorrectamenteRedireccionaraIndex()
+        public void _08_Editar_Id_4_Retorna_Vista_Ok()
         {
-            DateTime datex = Convert.ToDateTime("01/01/1990");
+            //Preparar  - Arrange
+            var _id = 4;
             var mock = new Mock<ISeguimientoTitulo>();
+            mock.Setup(x => x.TraerSeguimientoPorId(_id)).Returns(new Seguimiento());
+
+            //Actuar - Act
             var controller = new SeguimientoController(mock.Object);
 
-            var redirect = controller.Create(new Seguimiento
-            {
-                Fecha = datex,
-                Peso =3000.00M,
-                Altura = 12.21M,
-                Brazo = 12.21M,
-                Pierna = 123.23M,
-                Cintura = 12.21M,
-                Abdomen = 123.23M,
-                Pecho = 8765M,
-                Observaciones = "qwewrt"
-            }) as RedirectToRouteResult;
-
-            Assert.IsNotNull(redirect);
-            Assert.AreEqual("Index", redirect.RouteValues["action"]);
-        }
-
-        [Test]
-        public void _07_TestSeguimientoEditarRetornarVistaEsOk()
-        {
-            var mock = new Mock<ISeguimientoTitulo>();
-            mock.Setup(x => x.TraerSeguimientoPorId(1)).Returns(new Seguimiento());
-
-            var controller = new SeguimientoController(mock.Object);
-
-            var view = controller.Edit(1) as ViewResult;
-
+            //Afirmar - Assert
+            var view = controller.Edit(_id) as ViewResult;
             AssertViewsWithModel(view, "Edit");
-            mock.Verify(x => x.TraerSeguimientoPorId(1), Times.Exactly(1));
+            mock.Verify(x => x.TraerSeguimientoPorId(_id), Times.Exactly(1));
 
         }
         [Test]
-        public void _08_TestSeguimientoEditarGuardarExito()
+        public void _09_Edit_Guardar_Ok()
         {
-            //arrange
+            //Preparar  - Arrange
             var mock = new Mock<ISeguimientoTitulo>();
             var controller = new SeguimientoController(mock.Object);
 
-            var redirect = controller.Edit(new Seguimiento { Observaciones = "7162146789" }) as RedirectToRouteResult;
-
+            //Actuar - Act
+            var redirect = controller.Edit(new Seguimiento { Observaciones = "Salud de PPK" }) as RedirectToRouteResult;
+            
+            //Afirmar - Assert
             Assert.IsNotNull(redirect);
             Assert.AreEqual("Index", redirect.RouteValues["action"]);
         }
 
-
-
         [Test]
-        public void TestIndexReturnViewIsOkjjjjjjjjjjjjjjjj()
+        public void _10_Edit_Falla_Guardar()
         {
-            DateTime datex = Convert.ToDateTime("01/01/1990");
-            //Arrange
-            var mock = new Mock<ISeguimientoTitulo>();
-            mock.Setup(x => x.ListameTodo(2)).Returns(new List<Seguimiento>());
-            var controller = new SeguimientoController(mock.Object);
+            //Preparar  - Arrange
+            var controller = new SeguimientoController(null);
 
-            // Act
-            var view = controller.Index(2);
+            //Actuar - Act
+            var view = controller.Edit(new Seguimiento()) as ViewResult;
 
-            //Assert
-            mock.Verify(x => x.ListameTodo(2), Times.Once);
-            AssertViewsWithModel(view, "Index");
-            Assert.IsInstanceOf(typeof(List<Seguimiento>), view.Model);
+            //Afirmar - Assert
+            AssertViewsWithModel(view, "Edit");
+
         }
-
-
 
         private void AssertViewsWithModel(ViewResult view, string viewName)
         {

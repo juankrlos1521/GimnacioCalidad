@@ -33,7 +33,7 @@ namespace Gym.Web
             container.RegisterType<ITrabajadorTitulo, TrabajadorTrama>();
             container.RegisterType<IRutinaTitulo, RutinaTrama>();
             container.RegisterType<IClienteTitulo, ClienteTrama>();
-
+            container.RegisterType<ISecuenciaTitulo, SecuenciaTrama>();
 
             RegisterTypes(container);
 

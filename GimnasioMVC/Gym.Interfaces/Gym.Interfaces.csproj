@@ -52,6 +52,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Titulos\IClienteTitulo.cs" />
     <Compile Include="Titulos\IRutinaTitulo.cs" />
+    <Compile Include="Titulos\ISecuenciaTitulo.cs" />
     <Compile Include="Titulos\ISeguimientoTitulo.cs" />
     <Compile Include="Titulos\ITrabajadorTitulo.cs" />
   </ItemGroup>
