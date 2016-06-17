@@ -14,9 +14,8 @@ using NUnit.Framework;
 namespace Gym.Test.Controllers
 {
     [TestFixture]
-    publicclass IClienteTest
+    public class ClienteControllerTest
     {
-         
         [Test]
         public void TestCliente1_RetornarIndex_Cliente()
         {

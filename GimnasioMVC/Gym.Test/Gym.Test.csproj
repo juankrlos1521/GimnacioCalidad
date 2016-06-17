@@ -86,7 +86,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\IClienteTest.cs" />
+    <Compile Include="Controllers\ClienteControllerTest.cs" />
     <Compile Include="Controllers\SeguimientoControllerTest.cs" />
     <Compile Include="Controllers\TrabajadorControllerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
