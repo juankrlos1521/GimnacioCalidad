@@ -16,53 +16,48 @@ namespace Gym.Test.Controllers
     [TestFixture]
     public class TrabajadorControllerTest
     {
-        [Test]
-        public void TestTrabajador1_RetornarIndex_trabajador()
-        {
-            string expected = "Index";
-            var mock = new Mock<ITrabajadorTitulo>();
-            TrabajadorController controller = new TrabajadorController(mock.Object);
+        //[Test]
+        //public void TestTrabajador1_RetornarIndex_trabajador()
+        //{
+        //    string expected = "Index";
+        //    var mock = new Mock<ITrabajadorTitulo>();
+        //    TrabajadorController controller = new TrabajadorController(mock.Object);
 
-            ViewResult result = controller.Index() as ViewResult;
+        //    ViewResult result = controller.Index() as ViewResult;
 
-            Assert.IsNotNull(result);
-            Assert.AreEqual(expected, result.ViewName);
-        }
-
-        [Test]
-        public void TestTrabajador2_AbrirCreateTrabajador_trabajador()
-        {
-            var controller = new TrabajadorController(null);
-
-            var view = controller.Create() as ViewResult;
-
-            AssertViewWithoutModel(view, "Create");
-
-        }
-
-        [Test]
-        public void TestTrabajador3_GuardadoExitosoRedireccionarIndex_Trabajador()
-        {
-            var mock = new Mock<ITrabajadorTitulo>();
-            var controller = new TrabajadorController(mock.Object);
-
-            var redirect = controller.Create(new Trabajador { Estado = false }) as RedirectToRouteResult;
-
-            Assert.IsNotNull(redirect);
-            Assert.AreEqual("Index", redirect.RouteValues["action"]);
-        }
-
-        
+        //    Assert.IsNotNull(result);
+        //    Assert.AreEqual(expected, result.ViewName);
+        //}
 
 
+        ////[Test]
+        ////public void TestTrabajador2_AbrirCreateTrabajador_trabajador()
+        ////{
+        ////    var controller = new TrabajadorController(null);
 
+        ////    var view = controller.Create() as ViewResult;
 
+        ////    AssertViewWithoutModel(view, "Create");
 
-        private void AssertViewWithoutModel(ViewResult view, string viewName)
-        {
-            Assert.IsNotNull(view);
-            Assert.AreEqual(viewName, view.ViewName);
-            Assert.IsNull(view.Model);
-        }
+        ////}
+
+        //[Test]
+        //public void TestTrabajador3_GuardadoExitosoRedireccionarIndex_Trabajador()
+        //{
+        //    var mock = new Mock<ITrabajadorTitulo>();
+        //    var controller = new TrabajadorController(mock.Object);
+
+        //    var redirect = controller.Create(new Trabajador { Estado = false }) as RedirectToRouteResult;
+
+        //    Assert.IsNotNull(redirect);
+        //    Assert.AreEqual("Index", redirect.RouteValues["action"]);
+        //}
+
+        //private void AssertViewWithoutModel(ViewResult view, string viewName)
+        //{
+        //    Assert.IsNotNull(view);
+        //    Assert.AreEqual(viewName, view.ViewName);
+        //    Assert.IsNull(view.Model);
+        //}
     }
 }
