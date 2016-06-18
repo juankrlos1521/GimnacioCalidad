@@ -1,0 +1,14 @@
+﻿<h1>Crear Inscripcion</h1>
+
+<form action="/inscripcion/guardar" method="post">
+    <select name="CursoElegidoId">
+        <option>[Seleccione su curso]</option>
+        @foreach (var item in ViewBag.Cursos)
+        {
+            <option value="@item.Id">@item.Nombre</option>
+        }
+    </select>
+
+    <button name="Action" value="Agregar">Añadir</button>
+</form>
+

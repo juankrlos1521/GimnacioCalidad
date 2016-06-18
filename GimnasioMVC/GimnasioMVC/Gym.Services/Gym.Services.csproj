@@ -51,6 +51,8 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tramas\ClienteTrama.cs" />
+    <Compile Include="Tramas\CursoTrama.cs" />
+    <Compile Include="Tramas\InscripcionTrama.cs" />
     <Compile Include="Tramas\RutinaSecuenciaTrama.cs" />
     <Compile Include="Tramas\RutinaTrama.cs" />
     <Compile Include="Tramas\SecuenciaTrama.cs" />

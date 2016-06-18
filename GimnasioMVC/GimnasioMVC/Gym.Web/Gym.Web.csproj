@@ -223,6 +223,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InscripcionController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\RutinaController.cs" />
     <Compile Include="Controllers\RutinaSecuenciaController.cs" />
@@ -237,6 +238,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\InscripcionViewModel.cs" />
     <Compile Include="ViewModels\RutinaViewModels.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -461,6 +463,7 @@
     <Content Include="Views\Cliente\Details.cshtml" />
     <Content Include="Views\Rutina\Create2.cshtml" />
     <Content Include="Views\Rutina\Create.cshtml" />
+    <Content Include="Views\Inscripcion\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -51,6 +51,8 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Titulos\IClienteTitulo.cs" />
+    <Compile Include="Titulos\ICursoTitulo.cs" />
+    <Compile Include="Titulos\IInscripcionTitulo.cs" />
     <Compile Include="Titulos\IRutinaSecuencia.cs" />
     <Compile Include="Titulos\IRutinaTitulo.cs" />
     <Compile Include="Titulos\ISecuenciaTitulo.cs" />

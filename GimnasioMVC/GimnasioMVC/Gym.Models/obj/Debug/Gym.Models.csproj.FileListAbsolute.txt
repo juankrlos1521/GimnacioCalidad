@@ -61,3 +61,15 @@ C:\Users\Alexander\Desktop\GimnasioMVC\GimnasioMVC\Gym.Models\bin\Debug\es\Entit
 C:\Users\Alexander\Desktop\GimnasioMVC\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.csprojResolveAssemblyReference.cache
 C:\Users\Alexander\Desktop\GimnasioMVC\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.dll
 C:\Users\Alexander\Desktop\GimnasioMVC\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.pdb
+D:\gym\GimnacioCalidad\GimnasioMVC\GimnasioMVC\Gym.Models\bin\Debug\Gym.Models.dll.config
+D:\gym\GimnacioCalidad\GimnasioMVC\GimnasioMVC\Gym.Models\bin\Debug\Gym.Models.dll
+D:\gym\GimnacioCalidad\GimnasioMVC\GimnasioMVC\Gym.Models\bin\Debug\Gym.Models.pdb
+D:\gym\GimnacioCalidad\GimnasioMVC\GimnasioMVC\Gym.Models\bin\Debug\EntityFramework.dll
+D:\gym\GimnacioCalidad\GimnasioMVC\GimnasioMVC\Gym.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\gym\GimnacioCalidad\GimnasioMVC\GimnasioMVC\Gym.Models\bin\Debug\EntityFramework.xml
+D:\gym\GimnacioCalidad\GimnasioMVC\GimnasioMVC\Gym.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\gym\GimnacioCalidad\GimnasioMVC\GimnasioMVC\Gym.Models\bin\Debug\es\EntityFramework.resources.dll
+D:\gym\GimnacioCalidad\GimnasioMVC\GimnasioMVC\Gym.Models\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+D:\gym\GimnacioCalidad\GimnasioMVC\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.csprojResolveAssemblyReference.cache
+D:\gym\GimnacioCalidad\GimnasioMVC\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.dll
+D:\gym\GimnacioCalidad\GimnasioMVC\GimnasioMVC\Gym.Models\obj\Debug\Gym.Models.pdb
